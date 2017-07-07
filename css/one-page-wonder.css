@@ -12,7 +12,8 @@ body {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+    /* background: url('http://placehold.it/1900x500') no-repeat center center scroll; */
+    background: url('../img/heading.jpeg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -21,18 +22,25 @@ body {
 
 .headline {
     padding: 120px 0;
+    font-family: 'Great Vibes', cursive;
 }
 
 .headline h1 {
     font-size: 130px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,0.7);
+    margin-bottom: 0px;
+    text-align: left;
+    padding: 20px 20px 0px 20px;
 }
 
 .headline h2 {
     font-size: 77px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,0.7);
+    margin-top: 0px;
+    text-align: right;
+    padding: 0px 20px 20px 20px;
 }
 
 .featurette-divider {
@@ -52,7 +60,8 @@ body {
 }
 
 .featurette-heading {
-    font-size: 50px;
+    font-size: 75px;
+    font-family: 'Great Vibes', cursive;
 }
 
 footer {
