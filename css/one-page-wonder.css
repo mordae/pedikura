@@ -15,8 +15,7 @@ body {
 }
 
 .header-image {
-	height: 950px;
-	max-height: 100%;
+	min-height: 700px;
 	background: url('../img/heading.jpeg') no-repeat center center scroll;
 }
 
@@ -177,7 +176,7 @@ footer {
 
 @media(max-width:668px) {
 	.headline h1 {
-		font-size: 70px;
+		font-size: 65px;
 	}
 
 	.headline h2 {
